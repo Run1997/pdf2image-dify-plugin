@@ -1,0 +1,17 @@
+identity:
+  author: run
+  name: pdf2image
+  label:
+    en_US: pdf2image
+    zh_Hans: pdf2image
+    pt_BR: pdf2image
+  description:
+    en_US: Convert PDF to Image
+    zh_Hans: Convert PDF to Image
+    pt_BR: Convert PDF to Image
+  icon: icon.svg
+tools:
+  - tools/pdf2image.yaml
+extra:
+  python:
+    source: provider/pdf2image.py

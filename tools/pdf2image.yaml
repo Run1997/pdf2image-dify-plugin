@@ -1,0 +1,29 @@
+identity:
+  name: pdf2image
+  author: run
+  label:
+    en_US: pdf2image
+    zh_Hans: pdf2image
+    pt_BR: pdf2image
+description:
+  human:
+    en_US: Convert PDF to Image
+    zh_Hans: Convert PDF to Image
+    pt_BR: Convert PDF to Image
+  llm: Convert PDF to Image
+parameters:
+  - name: files
+    type: files
+    required: false
+    label:
+      en_US: Files
+      zh_Hans: 文件
+      pt_BR: Arquivos
+    human_description:
+      en_US: Upload PDF files for conversion
+      zh_Hans: 上传PDF文件进行转换
+      pt_BR: Carregue arquivos PDF para conversão
+    form: llm
+extra:
+  python:
+    source: tools/pdf2image.py
