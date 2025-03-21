@@ -5,6 +5,7 @@
 **Type:** tool
 
 ### Description
+Dify插件-PDF文档转图片
 
 
 
